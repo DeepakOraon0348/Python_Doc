@@ -18,5 +18,10 @@ import random
 b = "Hello, World!"
 # print(b[2:len(b)+1])
 # print(b[:5]); slicing from start
-print(b[2:]);
-print(b[-5:-2]);
+# print(b[2:]);
+# print(b[-5:-2]);
+
+temp=b.find("y");
+# temp=b.index("f")
+print(temp)
+
