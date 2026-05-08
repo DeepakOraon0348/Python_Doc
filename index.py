@@ -31,11 +31,39 @@
 # square=a**2
 # print("The square of a is: ", square)
 
-fruits=["apple", "banana", "cherry"]
+# fruits=["apple", "banana", "cherry"]
 # print(fruits[0])
 # print(fruits[1])
 # print(fruits[2])    
 # print(fruits.index("banana"))
 # fruits.append("Pinapple")
-print(fruits)
-print(fruits)
+# print(fruits)
+# print(fruits)
+# fruits.insert(1, "pinapple")
+# print(fruits)
+# fruits.remove('apple')
+# del fruits[0]
+
+# fruits.pop()
+# fruit=fruits.pop()
+# print(fruit)
+# print(fruits)
+
+fruits=["apple", "banana", "cherry"]
+
+# for i in fruits:
+#     print(i.upper())
+# num=[1,2,3,4,5]
+# a='Hellow world!'
+# for i in range(len(num)):
+#     if num[i]==3:
+#         break
+#     print(num[i] , end=' ')
+
+# for i in fruits:
+#     if i=="banana":
+#         continue
+#     print(i.upper())
+
+for i in range(0,6,6):
+    print(i)
