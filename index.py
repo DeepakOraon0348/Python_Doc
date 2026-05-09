@@ -49,7 +49,7 @@
 # print(fruit)
 # print(fruits)
 
-fruits=["apple", "banana", "cherry"]
+# fruits=["apple", "banana", "cherry"]
 
 # for i in fruits:
 #     print(i.upper())
@@ -65,5 +65,5 @@ fruits=["apple", "banana", "cherry"]
 #         continue
 #     print(i.upper())
 
-for i in range(0,6,6):
-    print(i)
+# for i in range(0,6,6):
+#     print(i)
