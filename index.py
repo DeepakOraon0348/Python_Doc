@@ -70,14 +70,14 @@
 
 # ====================================== Dictionary ============================
 
-student={
-    "name": "Deepak",
-    "branch": "CSE",
-    "year": 2,
-    "batch":2022,
-    "address": 'Ranchi',
-    0:"this is codezeal's titanic it can be break in blue moon.0"
-}
+# student={
+#     "name": "Deepak",
+#     "branch": "CSE",
+#     "year": 2,
+#     "batch":2022,
+#     "address": 'Ranchi',
+#     0:"this is codezeal's titanic it can be break in blue moon.0"
+# }
 
 # student["name"]="Rahul"
 
@@ -93,8 +93,24 @@ student={
 # student.update({"name":"Rahul Kumar", "year":6, "address":"Seraikella", "phone":1234567890})
 # str=student.popitem()
 # print(str)
-print(student)
+# print(student)
 
 # del student["batch"], student["address"]
-del student
-print(student)
+# del student
+# print(student)
+
+# for i in student.keys():
+#     print(student[i])
+
+# =================================== Funcions ===============================.
+# def myFirstfunction():
+#     print("this is codezeal's titanic, it is starting now.")
+
+# myFirstfunction()
+
+def sum(a,  b):
+    k=a
+    e=b
+    sum=k+e
+    return sum
+print(sum(2,3))
