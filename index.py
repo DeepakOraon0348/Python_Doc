@@ -67,3 +67,34 @@
 
 # for i in range(0,6,6):
 #     print(i)
+
+# ====================================== Dictionary ============================
+
+student={
+    "name": "Deepak",
+    "branch": "CSE",
+    "year": 2,
+    "batch":2022,
+    "address": 'Ranchi',
+    0:"this is codezeal's titanic it can be break in blue moon.0"
+}
+
+# student["name"]="Rahul"
+
+# for i in student.values():
+#     print(i)
+# print(student[0], student["name"], student["branch"])
+# print(student["year"])
+
+# print(student.keys()) #.keys() method is used to get all the keys of the dictionary.
+# print(student.values()) #.values() method is used to get all the values of the dictionary.
+
+# print(len(student))
+# student.update({"name":"Rahul Kumar", "year":6, "address":"Seraikella", "phone":1234567890})
+# str=student.popitem()
+# print(str)
+print(student)
+
+# del student["batch"], student["address"]
+del student
+print(student)
