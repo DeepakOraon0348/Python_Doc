@@ -108,9 +108,55 @@
 
 # myFirstfunction()
 
-def sum(a,  b):
-    k=a
-    e=b
-    sum=k+e
-    return sum
-print(sum(2,3))
+# def sum(a,  b):
+#     k=a
+#     e=b
+#     sum=k+e
+#     return sum
+# print(sum(2,3))
+
+# ============================= functions with default parameters 12/05/2026=====================
+
+# def add_two_no(a, b):
+#     sum=a+b
+#     print("sum of "+str(a)+" and "+str(b)+" is: ", sum)
+
+# add_two_no(2,3)
+
+# def check_odd(a):
+#     if a%2==0:
+#         print(f"{a} is even.")
+#     else:
+#         print(f"{a} is odd.")
+
+# check_odd(2)
+# check_odd(3)
+
+# print("Hello, Deepak Kumar!");
+
+
+def revers(a):
+    reverStr=""
+    for i in a:
+        reverStr=i+reverStr;
+    return reverStr
+#     print(a[::-1], end=' ')
+
+name=["Puja", "madam", "racecar", "Satyarth"]
+for i in name:
+    reverseStr=revers(i)
+    if i==reverseStr:
+        print(f"{i} is palindrome.") 
+    else:
+        print(f"{i} is not palindrome.")
+# revers(name)   
+# for i in name:
+#     revers)
+
+# def palindrome(a):
+#     if a==a[::-1]:
+#         print(f"{a} is palindrome.")
+#     else:
+#         print(f"{a} is not palindrome.")
+
+# palindrome("dam")
